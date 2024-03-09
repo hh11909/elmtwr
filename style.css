@@ -238,9 +238,23 @@ section{
     .main h3{
         font-size: 1.4em;
     }
+     .footer{
+        flex-direction: column;
+        justify-content: start;
+    }
+    .footer-title{
+        padding-bottom: 30px;
+    }
 }
 @media(max-width:300px){
     body{
         font-size: 10px;
+    }
+      .footer{
+        flex-direction: column;
+        justify-content: start;
+    }
+    .footer-title{
+        padding-bottom: 30px;
     }
 }
